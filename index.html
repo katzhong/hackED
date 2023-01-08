@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>Remy's Kitchen</title>
+       <link rel="stylesheet" href="css/styles.css">
+       <link rel="icon" href="favicon.ico">
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+
+   </head>
+   <body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Salads</a>
+        <a href="#">Appetizers</a>
+        <a href="#">Main Course</a>
+        <a href="#">Desserts</a>
+        <a href="#">Drinks</a>
+      </div>
+     
+    <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+       
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+       <div class="top-container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+            <form class="search" action="action_page.php">
+                <input class="input" type="text" placeholder="Search.." name="search">
+                <button class="sbox" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+            
+
+
+           <img class="Ramen" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pot-of-food_1f372.png" alt="ramen image">
+           <h1>Remy's Kitchen</h1>
+           <p>A crash course to being a Full Stack Chef</p>
+           <br><br>
+           <img class="cake"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/shortcake_1f370.png" alt="cake image">
+           <img class="Pizza"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pizza_1f355.png" alt="pizaa image">
+           <img class="flatbread"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/stuffed-flatbread_1f959.png" alt="flatbread image">
+           <img class="burger"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/hamburger_1f354.png" alt="burger image">
+           <img class="taco"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/taco_1f32e.png" alt="taco image">
+           <img class="doughnut"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/doughnut_1f369.png" alt="doughnut image">
+           <img class="spaghetti"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/spaghetti_1f35d.png" alt="spaghetti image">
+           <img class="burrito"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/burrito_1f32f.png" alt="burrito image">
+           <img class="Pretzel"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pretzel_1f968.png" alt="Pretzel image">
+           <img class="cookie"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/cookie_1f36a.png" alt="cookie image">
+           <img src="Logo.png" alt="logo image">
+           
+       </div>
+       
+   </body>
+</html>
